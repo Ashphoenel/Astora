@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ashphoenel\Astora\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class AstoraCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'astora';
 
     public $description = 'My command';
 
