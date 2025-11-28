@@ -4,6 +4,4 @@ namespace Ashphoenel\Astora\Data;
 
 use Spatie\LaravelData\Data as SpatieData;
 
-abstract class Data extends SpatieData
-{
-}
+abstract class Data extends SpatieData {}

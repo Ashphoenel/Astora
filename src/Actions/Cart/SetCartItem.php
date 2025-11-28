@@ -30,7 +30,7 @@ class SetCartItem extends Action
         if ($data->quantity > 0) {
             $cartItem = filled($cartItem) ?
                 $this->update->execute($cartItem, $data, $sync) :
-                $this->add->execute($cart, $product, $data, $sync) ;
+                $this->add->execute($cart, $product, $data, $sync);
         } else {
             if ($cartItem) {
                 $this->delete->execute($cartItem, $sync);

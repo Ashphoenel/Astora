@@ -2,9 +2,9 @@
 
 namespace Ashphoenel\Astora\Tests;
 
+use Ashphoenel\Astora\AstoraServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ashphoenel\Astora\AstoraServiceProvider;
 
 class TestCase extends Orchestra
 {

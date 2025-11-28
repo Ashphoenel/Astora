@@ -9,5 +9,6 @@ use Ashphoenel\Astora\Money;
 interface Product extends Morphable
 {
     public function getName(string $locale = 'en'): string;
+
     public function getPrice(): Money;
 }

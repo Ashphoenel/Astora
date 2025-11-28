@@ -7,6 +7,8 @@ namespace Ashphoenel\Astora\Contracts;
 interface Morphable
 {
     public function getKey(): mixed;
+
     public function getKeyName(): string;
+
     public function getMorphClass(): string;
 }

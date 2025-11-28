@@ -3,10 +3,10 @@
 namespace Ashphoenel\Astora\Actions\Cart;
 
 use Ashphoenel\Astora\Actions\Action;
-use Ashphoenel\Astora\Data\CartData;
-use Ashphoenel\Astora\Models\Cart;
 use Ashphoenel\Astora\Contracts\Customer;
+use Ashphoenel\Astora\Data\CartData;
 use Ashphoenel\Astora\Exceptions\CustomerOrOwnerKeyRequiredException;
+use Ashphoenel\Astora\Models\Cart;
 
 class GetCart extends Action
 {

@@ -2,13 +2,12 @@
 
 namespace Ashphoenel\Astora;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Ashphoenel\Astora\Commands\AstoraCommand;
-use Ashphoenel\Astora\Transformers\MoneyDecimalTransformer;
-use Ashphoenel\Astora\Money;
 use Ashphoenel\Astora\Contracts\CurrencyConverter;
 use Ashphoenel\Astora\Converters\FixedRateCurrencyConverter;
+use Ashphoenel\Astora\Transformers\MoneyDecimalTransformer;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class AstoraServiceProvider extends PackageServiceProvider
 {

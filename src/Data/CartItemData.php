@@ -8,6 +8,6 @@ class CartItemData extends Data
 {
     public function __construct(
         public readonly int $quantity,
-        public readonly Money|null $base_price = null,
+        public readonly ?Money $base_price = null,
     ) {}
 }

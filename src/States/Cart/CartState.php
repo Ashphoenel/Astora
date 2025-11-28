@@ -14,10 +14,9 @@ abstract class CartState extends State
 
     public static function config(): StateConfig
     {
-        return parent::config()
-            // ->default(Pending::class)
-            // ->allowTransition(Pending::class, Paid::class)
-            // ->allowTransition(Pending::class, Failed::class)
-        ;
+        return parent::config();
+        // ->default(Pending::class)
+        // ->allowTransition(Pending::class, Paid::class)
+        // ->allowTransition(Pending::class, Failed::class)
     }
 }

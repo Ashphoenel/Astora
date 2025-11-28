@@ -2,6 +2,4 @@
 
 namespace Ashphoenel\Astora\Actions;
 
-abstract class Action
-{
-}
+abstract class Action {}

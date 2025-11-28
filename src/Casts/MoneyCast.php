@@ -22,7 +22,7 @@ abstract class MoneyCast implements CastsAttributes
             : (bool) $forceDecimals;
     }
 
-    abstract protected function getFormatter(Money $money): string | float | int;
+    abstract protected function getFormatter(Money $money): string|float|int;
 
     public function get($model, string $key, $value, array $attributes): ?Money
     {
